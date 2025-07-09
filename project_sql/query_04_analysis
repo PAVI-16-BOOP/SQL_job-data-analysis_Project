@@ -1,0 +1,134 @@
+For DATA ANALYST 
+
+🔥 Key Observations
+📈 Salary Range
+Top salary: ₹4,00,000 (for svn)
+
+Lowest among top 25: ~₹1,15,479 (for scala)
+
+Majority of these skills sit comfortably above ₹1,15k–₹1,50k+, which is quite premium for data analyst roles.
+
+🧩 Skill Categories
+Looking at the skills, they fall into a few big buckets:
+
+🪄 1. Version Control & DevOps tools
+These dominate the high-paying skills — not surprising, because they are critical in collaborative, production-grade data work.
+
+svn (highest!)
+
+gitlab, bitbucket, atlassian
+
+puppet, ansible, terraform
+
+vmware, twilio
+
+These show that knowledge of CI/CD pipelines & deployment tools really pays off.
+
+🔍 2. Programming Languages & Frameworks
+Strong programming skills also correlate with higher pay.
+
+golang, scala, perl
+
+solidity (blockchain-related, niche & lucrative)
+
+🤖 3. AI/ML & Deep Learning Frameworks
+ML & AI-related skills show up consistently.
+
+mxnet, dplyr (data manipulation), keras, pytorch, tensorflow, hugging face
+
+Deep learning frameworks & NLP tools clearly add value even to a data analyst role.
+
+🔗 4. Big Data & Databases
+Handling big data is hot.
+
+cassandra, kafka, couchbase, airflow
+
+Knowledge of distributed systems & streaming tools gets rewarded.
+
+📊 5. Misc/Niche
+datarobot — AutoML platform
+
+notion — collaboration/documentation (surprising but suggests orgs value productivity tooling too)
+
+🏓 Summary Table of Trends
+🧰 Skill Area	Examples	Trend
+DevOps & Deployment	svn, gitlab, puppet, terraform	Most lucrative
+Programming & Scripting	golang, scala, perl, solidity	High value esp. niche
+ML & AI	keras, pytorch, hugging face, mxnet	Big demand
+Big Data & Pipelines	kafka, cassandra, airflow, couchbase	Strong demand
+Productivity Tools	notion, twilio, atlassian	Adds bonus value
+
+🥇 Takeaways for You
+✅ Learning DevOps + ML + Big Data tools as a data analyst can skyrocket your pay.
+✅ Even though these aren’t the traditional “Excel + SQL” analyst tools, companies pay a premium for analysts who can bridge analytics → engineering → ML.
+✅ Picking a couple of niche skills (like solidity, hugging face, datarobot) gives you a competitive edge.
+
+
+For DATA SCIENTIST
+
+
+📊 Quick Salary Stats:
+📈 Highest: ₹2,15,477 → asana
+
+📉 Lowest (of top 25): ₹1,48,714 → atlassian
+
+Most skills here sit in the ₹1.5–2.1L+ range.
+
+Notably, the top salaries for Data Scientists are higher than for Data Analysts — which makes sense given the role complexity.
+
+🧩 Skill Buckets & Trends
+🏓 1️⃣ Collaboration & Productivity Tools
+➡️ Surprisingly, these are at the top!
+
+asana, airtable, slack, notion, zoom, atlassian
+
+🎯 Companies clearly value data scientists who can integrate seamlessly into cross-functional teams, document & communicate results effectively.
+
+🧠 2️⃣ Niche Programming Languages & Frameworks
+➡️ Data Scientists seem to cash in on mastering less-common languages & frameworks.
+
+elixir, lua, objective-c, haskell, ruby on rails
+
+These aren’t your usual Python/R; they’re rare, and niche — which explains the premium.
+
+🤖 3️⃣ AI / ML & NLP Tools
+➡️ Still crucial, and higher up than for Data Analysts.
+
+hugging face, theano, watson, rshiny, dplyr
+
+Watson & Hugging Face especially highlight NLP skills.
+
+🔗 4️⃣ Big Data & Databases
+➡️ Handling complex, large-scale data still pays.
+
+neo4j (graph db), dynamodb, bigquery, airflow
+
+Note that graph databases (Neo4j) & cloud data warehouses (BigQuery) feature here — showing how Data Scientists are expected to model more complex relationships.
+
+🕹️ 5️⃣ Game & Simulation Engines
+➡️ This is unique to Data Scientists in this list!
+
+unity, unreal
+
+This suggests roles in simulation, AR/VR analytics, gaming analytics — cutting-edge domains.
+
+🚀 6️⃣ DevOps & Cloud (lightly represented)
+redhat, codecommit
+
+Compared to Data Analysts, Data Scientists need these less but it still shows up.
+
+👀 How does this differ from the Data Analyst list?
+Theme	Data Analyst	Data Scientist
+Top Skills	DevOps & CI/CD heavy (SVN, Puppet)	Collaboration & niche languages
+ML/DL Tools	More general (TensorFlow, PyTorch)	More NLP-heavy (HuggingFace, Watson)
+Programming	More mainstream + scripting	Rare/niche programming languages
+Big Data	Streaming & distributed (Kafka)	Graph & cloud DBs (Neo4j, BigQuery)
+Game Engines	🟥 Not present	🟩 Present
+Collaboration Tools	Lower priority	High priority (Asana, Airtable)
+
+🏆  Summary:
+✅ For Data Scientists, collaboration + niche expertise = big bucks.
+✅ Mastering rare programming paradigms (functional programming, graph dbs, NLP frameworks) gives a clear edge.
+✅ Skills like unity, unreal, and hugging face hint at growing roles in AI-driven creative industries.
+✅ Data Scientists are expected to tackle harder modeling & communication challenges, which explains the emphasis on both technical depth and teamwork tools.
+
