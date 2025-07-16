@@ -57,7 +57,7 @@ We started by filtering the jobs dataset to include only Data Analyst and Data S
 Then, by joining this subset with the skills_job_dim and skills_dim tables, we mapped each top-paying job to its associated skills. 
 
 
-![Top Skills](project_sql/assets/query_02_visualization.png)
+![Top Skills](assets/query_02_visualization.png)
 
 
 - query_3: aims to find the most in-demand skills 
@@ -69,7 +69,7 @@ By joining the job postings data with the associated skills tables, we counted t
 
 
 
-![Most in-demand skills overall](project_sql/assets/quer_03_vis.png)
+![Most in-demand skills overall](assets/quer_03_vis.png)
 
 - query_4: aims to find the top skills based on salary for a data analyst /scientist role.
 This analysis identifies the top 25 skills associated with the highest average salaries for Data Analyst and Data Scientist roles.
@@ -77,7 +77,7 @@ This analysis identifies the top 25 skills associated with the highest average s
 By joining job postings with the relevant skills data, the query calculates the average salary for each skill, specifically within either the Data Analyst or Data Scientist job category.
 The results are grouped by skill and role, then sorted in descending order of average salary, highlighting the most lucrative skills in each domain.
 
-![Top Skills based on pay rate](project_sql/assets/query_04_vis.png)
+![Top Skills based on pay rate](assets/query_04_vis.png)
 
 - query_5: aims tofind the optimal skills overall with high demand and high pay
 📄 Short Analysis
@@ -95,7 +95,7 @@ Another calculates the average salary for each skill where it appears in such jo
 
 These are then joined to surface skills that are popular and lucrative, and sorted by demand and salary.
 
-![Optimal skills](project_sql/assets/query_05_vis.png)
+![Optimal skills](assets/query_05_vis.png)
 
 # What I Learned
 
