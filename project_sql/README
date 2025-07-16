@@ -1,0 +1,116 @@
+# INTRODUCTION
+
+This SQL project analyzes global job postings to identify the most in-demand and highest-paying roles for Data Scientists and Data Analysts worldwide.
+By querying and aggregating data from a jobs dataset, the project uncovers which job titles, skills, and locations offer the best opportunities in terms
+of demand and salary. 
+The insights help aspiring professionals and organizations understand current trends in the data-driven job market.
+
+SQL queries? Click here : [project_sql folder](/project_sql/)
+
+# BACKGROUND 
+So ,this was project was a portfolio project in SQL for Data Analytics - Learn SQL in 4 Hours by Luke Barousse at Youtube 
+Here are the 5 questions this project aims at answering:
+1. What are the top-paying data analyst/scientist jobs, especially in certain countries ?
+2. What are the top skills required for the top-paying jobs?
+3. Whic skills are the most in-demand?
+4. Which skills re associated with higher salaries?
+5. What are the most optimal skills?
+
+# TOOLS I used ?
+For my deep dive into this project , I harnessed the power of several key tools:
+
+-**SQL**
+-**PostgreSQL**
+-**VScode**
+-**Git & Github**
+
+
+# Analysis
+
+- query_1: aims to find the top paying data analyst/scientist jobs
+
+📝 Short Analysis:
+The data shows the most lucrative remote opportunities in the field of Data Science & Data Analytics across 17 countries, including the US, UK, Germany, India, etc.
+
+Since only jobs with job_location = 'Anywhere' are included, this focuses on fully-remote roles.
+
+Results are sorted by average annual salary (salary_year_avg), so the top rows represent the highest-paying jobs available.
+
+Key insights you can extract:
+
+Which countries offer the highest salaries for remote roles.
+
+Which companies are hiring for these top-paying positions.
+
+The proportion of Data Scientist vs. Data Analyst roles at the top end.
+
+![Top Jobs](assets\Query_01_vis.png)
+
+
+- query_2: aims to find the top skills required for the specified jobs 
+
+📄 Short Analysis:
+This analysis identifies the most critical skills required for the top 1000 highest-paying Data Analyst and Data Scientist roles that are offered remotely or in a hybrid setting across 17 countries.
+
+We started by filtering the jobs dataset to include only Data Analyst and Data Scientist positions, fully-remote (Anywhere) or hybrid, with non-null salary information, and sorted them by salary to focus on the highest-paying opportunities.
+
+Then, by joining this subset with the skills_job_dim and skills_dim tables, we mapped each top-paying job to its associated skills. 
+
+
+![Top Skills](assets\query_02_visualization.png)
+
+
+- query_3: aims to find the most in-demand skills 
+
+📄 Short Analysis 
+This analysis explores the most in-demand skills for Data Analyst and Data Scientist roles globally, based on all available job postings in the dataset.
+
+By joining the job postings data with the associated skills tables, we counted the number of times each skill appeared in job descriptions for each role. The results were grouped by skill and job title, and the top 5 most frequently requested skills were retrieved for both roles.
+
+
+
+![Most in-demand skills overall](assets\quer_03_vis.png)
+
+- query_4: aims to find the top skills based on salary for a data analyst /scientist role.
+This analysis identifies the top 25 skills associated with the highest average salaries for Data Analyst and Data Scientist roles.
+
+By joining job postings with the relevant skills data, the query calculates the average salary for each skill, specifically within either the Data Analyst or Data Scientist job category.
+The results are grouped by skill and role, then sorted in descending order of average salary, highlighting the most lucrative skills in each domain.
+
+![Top Skills based on pay rate](assets\query_04_vis.png)
+
+- query_5: aims tofind the optimal skills overall with high demand and high pay
+📄 Short Analysis
+This analysis identifies the optimal skills for Data Analyst and Data Scientist roles — skills that are both highly demanded and associated with high salaries, focusing specifically on remote-friendly jobs with specified salaries.
+
+By combining two perspectives — skill demand (frequency of occurrence in job postings) and skill value (average salary) — this query pinpoints skills that offer the best of both worlds:
+✅ High demand = better job security.
+✅ High pay = strong financial growth potential.
+
+For each role (Analyst & Scientist), two intermediate tables are created:
+
+One ranks skills by demand count among remote jobs.
+
+Another calculates the average salary for each skill where it appears in such jobs (only for skills appearing more than 10 times for Analysts).
+
+These are then joined to surface skills that are popular and lucrative, and sorted by demand and salary.
+
+![Optimal skills](assets\query_05_vis.png)
+
+# What I Learned
+
+Through this project I have turbocharged my SQL toolkit , from basics to CTEs,et i.e.
+-Complex Query Crafting 
+-Data Aggregation 
+-Analytical Mindset Levelup
+
+
+# Conclusion 
+
+The analysis of data science job markets and salary trends for 2025 reveals a robust and highly competitive field, driven by rapid advancements in AI, machine learning, and big data technologies. Salaries for data scientists remain among the highest in the tech sector, with entry-level roles in the US typically ranging from $85,000–$120,000, and mid to senior-level professionals commanding $160,000–$215,000 or more annually. In India, freshers can expect between ₹6–10 lakhs per year, but salaries rise substantially with experience and are notably higher in major urban centers like Bangalore, Gurgaon, and Mumbai. The most lucrative roles are generally offered in large tech hubs, multinational companies, or remote-first organizations.
+
+Demand for data scientists is strongest for candidates who demonstrate a mix of programming (especially Python, R, and SQL), advanced analytics, data engineering, and domain knowledge, with additional premiums placed on expertise in cloud computing, AI frameworks, and modern data tools like TensorFlow, PyTorch, and cloud platforms. The job market in 2025 favors experienced professionals, as companies seek proven skillsets rather than entry-level talent, reflecting a maturing and competitive industry. Specialized skills such as machine learning engineering, deep learning, and operationalizing AI models continue to command the highest salaries, aligning with global business priorities to leverage data-driven insights at scale.
+
+Overall, data science remains a rewarding career both financially and professionally, but success increasingly depends on continuous upskilling, practical experience, and specialization in high-impact tools and technologies. The market outlook for 2025 suggests ongoing salary growth, shifting skill demands, and strong global opportunities for those prepared to meet the evolving requirements of the field.
+
+* generated by ChatGPT
