@@ -44,7 +44,7 @@ Which companies are hiring for these top-paying positions.
 
 The proportion of Data Scientist vs. Data Analyst roles at the top end.
 
-![Top Jobs](project_sql/assets/Query_01_vis.png)
+![Top Jobs](assets/Query_01_vis.png)
 
 
 - query_2: aims to find the top skills required for the specified jobs 
